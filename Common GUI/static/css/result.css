@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("assets/endResult.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Anta", sans-serif; /* Primary font */
+        font-family: "Kode Mono", monospace; /* Fallback font */
+        font-weight: 400;
+        font-style: normal;
+        overflow: hidden;
+        color:#f5f5f5;
+        font-size: 20px;
+}
+
+.center-view{
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.down-big{
+    margin-top: 10em;
+    font-size: larger;
+}
+
+.button-submit{
+    background-color: gainsboro;
+    color:  blueviolet;
+    margin: 0;
+    
+    font-size: 1em;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.button-submit:hover {
+box-shadow: 0px 0px 10px 3px aquamarine;
+
+}
+
+@keyframes dna-animation {
+    0% {
+        font-family: "Courier New", monospace;
+        letter-spacing: 5px;
+    }
+    50% {
+        font-family: "Comic Sans MS", cursive;
+        letter-spacing: -10px;
+    }
+    100% {
+        font-family: "Courier New", monospace;
+        letter-spacing: 5px;
+    }
+}
+
+@keyframes eye-scan-animation {
+    0% {
+        text-shadow: 0 0 0px #f8aaf9;
+    }
+    100% {
+        text-shadow: 0 0 20px #f8aaf9, 0 0 40px #c00af3;
+    }
+}
+
+#result-id {
+    animation: dna-animation 10s ease-in-out infinite;
+}
+
+/* Or: */
+#result-id {
+    animation: eye-scan-animation 2s ease-in-out infinite;
+}

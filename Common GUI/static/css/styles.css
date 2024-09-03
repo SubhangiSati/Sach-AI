@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, sans-serif; */
+  font-family: "Anta", sans-serif; /* Primary font */
+  font-family: "Kode Mono", monospace; /* Fallback font */
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  color:#f5f5f5;
+}
+
+#image-audio{
+  width: 520px;
+  height: 240px;
+}
+
+#image-video{
+  width: 520px;
+  height: 240px;
+}
+
+#image-img{
+  width: 520px;
+  height: 240px;
+}
+
+#background-video {
+  position: fixed; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(-1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Set the z-index to send it to the background */
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Solid black background color */
+  z-index: -1; /* Set the z-index to be below the content */
+}
+
+
+.container {
+  /* Adjust styles for content container on top of the video */
+  position: relative;
+  z-index: 1;
+  color: white; /* Set text color to white or adjust as needed */
+  
+}
+
+/* Remove the white background from other elements */
+.card-item, .pricing {
+  background-color: transparent;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.card-item {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+  border-radius: 15px; 
+  position: relative;
+}
+
+.card-item p{
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.image-item{
+  object-fit: cover;
+  border-radius: 15px; 
+  width: 100px;
+  height: 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detect-button{
+  margin: 0;
+  margin-bottom: 15px;
+  position: absolute;
+  top:92%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  background-color:white;
+  border: none;
+  border-radius: 18px;
+  color: blueviolet;
+  padding: 12px 28px;
+  text-align: center;
+  
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s; 
+}
+
+.detect-button:hover {background-color: #e57dff;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color:#f5f5f5;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  color:#f5f5f5;
+}
+
+.solutions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.solution-item {
+  flex-basis: calc(33.33% - 20px);
+  margin: 0 10px 20px;
+  text-align: left;
+}
+
+.solution-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.solution-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pricing h2 {
+  font-size: 60px;
+  margin-bottom: 120px;
+}
+
+.cta {
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.cta:hover {
+  background-color: #f5f5f5;
+}
+
+.already-have-account {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
