@@ -108,12 +108,12 @@ Once downloaded create a folder called `combined-real-and-fake-faces/combined-re
 ```
 ## Screenshots
 
-![App Screenshot](/Common%20GUI/screenshots/1.jpg)
-![App Screenshot](Common%20GUI/screenshots/2.jpg)
-![App Screenshot](Common%20GUI/screenshots/3.jpg)
-![App Screenshot](Common%20GUI/screenshots/4.jpg)
-![App Screenshot](Common%20GUI/screenshots/5.jpg)
-![App Screenshot](Common%20GUI/screenshots/6.jpg)
+![App Screenshot](/Common%20GUI/Screenshots/1.jpg)
+![App Screenshot](Common%20GUI/Screenshots/2.jpg)
+![App Screenshot](Common%20GUI/Screenshots/3.jpg)
+![App Screenshot](Common%20GUI/Screenshots/4.jpg)
+![App Screenshot](Common%20GUI/Screenshots/5.jpg)
+![App Screenshot](Common%20GUI/Screenshots/6.jpg)
 
 
 ## Authors
